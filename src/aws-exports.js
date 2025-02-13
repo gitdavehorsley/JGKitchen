@@ -1,9 +1,9 @@
 // src/aws-exports.js
-export default {
-    Auth: {
-        region: 'YOUR_AWS_REGION',
-        userPoolId: 'YOUR_USER_POOL_ID',
-        identityPoolId: 'YOUR_IDENTITY_POOL_ID',
-        userPoolWebClientId: 'YOUR_CLIENT_ID'
-    }
+const awsExports = {
+  Auth: {
+    region: "us-east-1",
+    userPoolId: "us-east-1_91hKOM0z5",
+    userPoolWebClientId: "4gtr4n7mnmg4qr0bvmt9bje48j",
+    mandatorySignIn: false
+  }
 };
